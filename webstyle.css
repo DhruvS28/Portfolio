@@ -43,7 +43,7 @@ img {
   	margin-top: 10px;
   	margin-bottom: 10px;
   	filter:blur(10px);
-  	transition-duration: 0s;
+  	transition-duration: 1s;
 }
 
 #img {
@@ -53,5 +53,5 @@ img {
 img:hover{
 	filter:blur(0px);
 	transform: scale(1.05);
-	transition-duration: 1s;
+	transition-duration: 0.5s;
 }
