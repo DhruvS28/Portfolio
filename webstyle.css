@@ -2,11 +2,10 @@ body {
 	background-color: darkblue
 }
 
-h1 {
+div, h1 {
   color: orange;
   position: relative;
   display: inline-block;
-  padding: 0px 115px;
 }
 
 hr {
@@ -22,9 +21,13 @@ p, header {
   margin: 0px;
 }
 
-a {
+a, a:hover {
 	color: orange;
 	text-decoration: none;
+}
+
+li {
+	color: #8eb;
 }
 
 video {
@@ -46,7 +49,7 @@ img {
   	transition-duration: 1s;
 }
 
-#img {
+#center {
 	text-align: center;
 }
 
@@ -54,4 +57,16 @@ img:hover{
 	filter:blur(0px);
 	transform: scale(1.05);
 	transition-duration: 0.5s;
+}
+
+img:target{
+	filter:blur(0px);
+	transform: scale(1.05);
+	transition-duration: 0.5s;
+}
+
+@media print {
+	html {
+		display: none;
+	}
 }
